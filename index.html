@@ -303,19 +303,15 @@
       1. 학생 정보 및 모둠 구성
      </div>
      <div class="form-row">
-      <div class="form-group">
-       <label>학번</label> <input type="text" placeholder="예: 2024001">
+      <div class="form-group"><label>학번</label> <input type="text" placeholder="예: 2024001">
       </div>
-      <div class="form-group">
-       <label>이름</label> <input type="text" placeholder="예: 홍길동">
+      <div class="form-group"><label>이름</label> <input type="text" placeholder="예: 홍길동">
       </div>
      </div>
      <div class="form-row">
-      <div class="form-group">
-       <label>모둠장</label> <input type="text" placeholder="예: 홍길동">
+      <div class="form-group"><label>모둠장</label> <input type="text" placeholder="예: 홍길동">
       </div>
-      <div class="form-group">
-       <label>모둠원</label> <input type="text" placeholder="예: 김영희, 이순신, 강감찬">
+      <div class="form-group"><label>모둠원</label> <input type="text" placeholder="예: 김영희, 이순신, 강감찬">
       </div>
      </div>
     </div>
@@ -324,47 +320,36 @@
      <div class="section-title">
       2. 사건 기본 정보
      </div>
-     <div class="form-group">
-      <label>설명문 (사건의 배경 및 개요)</label> <textarea placeholder="이 사건의 전반적인 배경과 개요를 간단히 작성해주세요."></textarea>
+     <div class="form-group"><label>설명문 (사건의 배경 및 개요)</label> <textarea placeholder="이 사건의 전반적인 배경과 개요를 간단히 작성해주세요."></textarea>
      </div>
      <div class="form-row">
-      <div class="form-group">
-       <label>일시</label> <input type="text" placeholder="예: 2026년 3월 15일 오후 3시">
+      <div class="form-group"><label>일시</label> <input type="text" placeholder="예: 2026년 3월 15일 오후 3시">
       </div>
-      <div class="form-group">
-       <label>장소</label> <input type="text" placeholder="예: 학교 운동장">
+      <div class="form-group"><label>장소</label> <input type="text" placeholder="예: 학교 운동장">
       </div>
      </div>
      <div class="form-row">
-      <div class="form-group">
-       <label>피해자</label> <input type="text" placeholder="예: 이순신 (학번: 2024005)">
+      <div class="form-group"><label>피해자</label> <input type="text" placeholder="예: 이순신 (학번: 2024005)">
       </div>
-      <div class="form-group">
-       <label>가해자</label> <input type="text" placeholder="예: 강감찬 (학번: 2024010)">
+      <div class="form-group"><label>가해자</label> <input type="text" placeholder="예: 강감찬 (학번: 2024010)">
       </div>
      </div><!-- 사건경위 세부 내용 -->
      <div class="sub-form">
       <div class="sub-form-title">
        사건경위 (가, 나, 다 순서로 작성)
       </div>
-      <div class="form-group">
-       <label>가) 사건 발생 전 상황</label> <textarea placeholder="사건이 발생하기 전의 상황을 구체적으로 작성해주세요."></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="incident-before-input">📷 이미지 추가</label> <input type="file" id="incident-before-input" accept="image/*" multiple onchange="handleImageUpload(event, 'incident-before-images')">
+      <div class="form-group"><label>가) 사건 발생 전 상황</label> <textarea placeholder="사건이 발생하기 전의 상황을 구체적으로 작성해주세요."></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="incident-before-input">📷 이미지 추가</label> <input type="file" id="incident-before-input" accept="image/*" multiple onchange="handleImageUpload(event, 'incident-before-images')">
         <div class="image-preview-container" id="incident-before-images"></div>
        </div>
       </div>
-      <div class="form-group">
-       <label>나) 사건 발생 당시 상황</label> <textarea placeholder="사건이 발생한 구체적인 상황을 시간 순서대로 작성해주세요."></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="incident-during-input">📷 이미지 추가</label> <input type="file" id="incident-during-input" accept="image/*" multiple onchange="handleImageUpload(event, 'incident-during-images')">
+      <div class="form-group"><label>나) 사건 발생 당시 상황</label> <textarea placeholder="사건이 발생한 구체적인 상황을 시간 순서대로 작성해주세요."></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="incident-during-input">📷 이미지 추가</label> <input type="file" id="incident-during-input" accept="image/*" multiple onchange="handleImageUpload(event, 'incident-during-images')">
         <div class="image-preview-container" id="incident-during-images"></div>
        </div>
       </div>
-      <div class="form-group">
-       <label>다) 사건 발생 후 상황</label> <textarea placeholder="사건 이후의 피해, 후속 조치 등을 작성해주세요."></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="incident-after-input">📷 이미지 추가</label> <input type="file" id="incident-after-input" accept="image/*" multiple onchange="handleImageUpload(event, 'incident-after-images')">
+      <div class="form-group"><label>다) 사건 발생 후 상황</label> <textarea placeholder="사건 이후의 피해, 후속 조치 등을 작성해주세요."></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="incident-after-input">📷 이미지 추가</label> <input type="file" id="incident-after-input" accept="image/*" multiple onchange="handleImageUpload(event, 'incident-after-images')">
         <div class="image-preview-container" id="incident-after-images"></div>
        </div>
       </div>
@@ -373,11 +358,9 @@
       <div class="sub-form-title">
        사건의 쟁점
       </div>
-      <div class="form-group">
-       <label>검사측 쟁점</label> <textarea placeholder="검사측이 주장하는 사건의 쟁점을 작성해주세요."></textarea>
+      <div class="form-group"><label>검사측 쟁점</label> <textarea placeholder="검사측이 주장하는 사건의 쟁점을 작성해주세요."></textarea>
       </div>
-      <div class="form-group">
-       <label>변호인측 쟁점</label> <textarea placeholder="변호인측이 주장하는 사건의 쟁점을 작성해주세요."></textarea>
+      <div class="form-group"><label>변호인측 쟁점</label> <textarea placeholder="변호인측이 주장하는 사건의 쟁점을 작성해주세요."></textarea>
       </div>
      </div>
     </div>
@@ -402,35 +385,27 @@
      <div class="section-title">
       3. 사건 개요 상세 작성 (검사 측)
      </div>
-     <div class="form-group">
-      <label>사건명 (예: 2026고합000호 학교폭력)</label> <input type="text" placeholder="예: 2026고합123호 학교폭력">
+     <div class="form-group"><label>사건명 (예: 2026고합000호 학교폭력)</label> <input type="text" placeholder="예: 2026고합123호 학교폭력">
      </div>
-     <div class="form-group">
-      <label>적용법조 (학교폭력 예방 및 대책에 관한 법률 제2조 해당 항목)</label> <textarea placeholder="예: 학교폭력 예방 및 대책에 관한 법률 제2조 제1항 제1호 신체에 대한 폭행 또는 협박
+     <div class="form-group"><label>적용법조 (학교폭력 예방 및 대책에 관한 법률 제2조 해당 항목)</label> <textarea placeholder="예: 학교폭력 예방 및 대책에 관한 법률 제2조 제1항 제1호 신체에 대한 폭행 또는 협박
 해당하는 법 조항을 구체적으로 명시해주세요."></textarea>
      </div>
      <div class="sub-form">
       <div class="sub-form-title">
        검사 측
       </div>
-      <div class="form-group">
-       <label>기소 요지</label> <textarea placeholder="검사가 주장하는 피고인의 범죄 혐의를 구체적으로 작성해주세요."></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="prosecutor-charges-input">📷 이미지 추가</label> <input type="file" id="prosecutor-charges-input" accept="image/*" multiple onchange="handleImageUpload(event, 'prosecutor-charges-images')">
+      <div class="form-group"><label>기소 요지</label> <textarea placeholder="검사가 주장하는 피고인의 범죄 혐의를 구체적으로 작성해주세요."></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="prosecutor-charges-input">📷 이미지 추가</label> <input type="file" id="prosecutor-charges-input" accept="image/*" multiple onchange="handleImageUpload(event, 'prosecutor-charges-images')">
         <div class="image-preview-container" id="prosecutor-charges-images"></div>
        </div>
       </div>
-      <div class="form-group">
-       <label>증거</label> <textarea placeholder="예: 피해자의 진술, 의료기록, 목격자 진술, CCTV 영상, 문자 메시지 등"></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="prosecutor-evidence-input">📷 이미지 추가</label> <input type="file" id="prosecutor-evidence-input" accept="image/*" multiple onchange="handleImageUpload(event, 'prosecutor-evidence-images')">
+      <div class="form-group"><label>증거</label> <textarea placeholder="예: 피해자의 진술, 의료기록, 목격자 진술, CCTV 영상, 문자 메시지 등"></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="prosecutor-evidence-input">📷 이미지 추가</label> <input type="file" id="prosecutor-evidence-input" accept="image/*" multiple onchange="handleImageUpload(event, 'prosecutor-evidence-images')">
         <div class="image-preview-container" id="prosecutor-evidence-images"></div>
        </div>
       </div>
-      <div class="form-group">
-       <label>증인</label> <textarea placeholder="예: 피해자, 목격자 학생 A, 목격자 학생 B, 학교 담임교사 등"></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="prosecutor-witness-input">📷 이미지 추가</label> <input type="file" id="prosecutor-witness-input" accept="image/*" multiple onchange="handleImageUpload(event, 'prosecutor-witness-images')">
+      <div class="form-group"><label>증인</label> <textarea placeholder="예: 피해자, 목격자 학생 A, 목격자 학생 B, 학교 담임교사 등"></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="prosecutor-witness-input">📷 이미지 추가</label> <input type="file" id="prosecutor-witness-input" accept="image/*" multiple onchange="handleImageUpload(event, 'prosecutor-witness-images')">
         <div class="image-preview-container" id="prosecutor-witness-images"></div>
        </div>
       </div>
@@ -445,31 +420,24 @@
       <div class="sub-form-title">
        변호인 측
       </div>
-      <div class="form-group">
-       <label>모두 진술</label> <textarea placeholder="피고인의 입장에서 사건의 전말을 설명하고 법적 주장을 제시해주세요."></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="defense-statement-input">📷 이미지 추가</label> <input type="file" id="defense-statement-input" accept="image/*" multiple onchange="handleImageUpload(event, 'defense-statement-images')">
+      <div class="form-group"><label>모두 진술</label> <textarea placeholder="피고인의 입장에서 사건의 전말을 설명하고 법적 주장을 제시해주세요."></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="defense-statement-input">📷 이미지 추가</label> <input type="file" id="defense-statement-input" accept="image/*" multiple onchange="handleImageUpload(event, 'defense-statement-images')">
         <div class="image-preview-container" id="defense-statement-images"></div>
        </div>
       </div>
-      <div class="form-group">
-       <label>증거</label> <textarea placeholder="예: 피고인의 진술, 알리바이 증거, 목격자 진술, 사실관계 입증 자료 등"></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="defense-evidence-input">📷 이미지 추가</label> <input type="file" id="defense-evidence-input" accept="image/*" multiple onchange="handleImageUpload(event, 'defense-evidence-images')">
+      <div class="form-group"><label>증거</label> <textarea placeholder="예: 피고인의 진술, 알리바이 증거, 목격자 진술, 사실관계 입증 자료 등"></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="defense-evidence-input">📷 이미지 추가</label> <input type="file" id="defense-evidence-input" accept="image/*" multiple onchange="handleImageUpload(event, 'defense-evidence-images')">
         <div class="image-preview-container" id="defense-evidence-images"></div>
        </div>
       </div>
-      <div class="form-group">
-       <label>증인</label> <textarea placeholder="예: 피고인, 목격자 학생 C, 피고인의 친구 D, 학교 상담사 등"></textarea>
-       <div class="image-upload-group">
-        <label class="image-upload-label" for="defense-witness-input">📷 이미지 추가</label> <input type="file" id="defense-witness-input" accept="image/*" multiple onchange="handleImageUpload(event, 'defense-witness-images')">
+      <div class="form-group"><label>증인</label> <textarea placeholder="예: 피고인, 목격자 학생 C, 피고인의 친구 D, 학교 상담사 등"></textarea>
+       <div class="image-upload-group"><label class="image-upload-label" for="defense-witness-input">📷 이미지 추가</label> <input type="file" id="defense-witness-input" accept="image/*" multiple onchange="handleImageUpload(event, 'defense-witness-images')">
         <div class="image-preview-container" id="defense-witness-images"></div>
        </div>
       </div>
      </div>
     </div><!-- 버튼 그룹 -->
-    <div class="button-group">
-     <button class="btn btn-print" onclick="printSection('section1')">1번 섹션 인쇄</button> <button class="btn btn-print" onclick="printSection('section2')">2번 섹션 인쇄</button> <button class="btn btn-print" onclick="printSection('section3')">3번 섹션 인쇄 (검사 측)</button> <button class="btn btn-print" onclick="printSection('section4')">4번 섹션 인쇄 (변호인 측)</button>
+    <div class="button-group"><button class="btn btn-print" onclick="printSection('section1')">1번 섹션 인쇄</button> <button class="btn btn-print" onclick="printSection('section2')">2번 섹션 인쇄</button> <button class="btn btn-print" onclick="printSection('section3')">3번 섹션 인쇄 (검사 측)</button> <button class="btn btn-print" onclick="printSection('section4')">4번 섹션 인쇄 (변호인 측)</button>
     </div>
    </div>
   </div>
@@ -529,8 +497,46 @@
 
     function printSection(sectionId) {
       const printWindow = window.open('', '', 'width=900,height=600');
-      const section = document.getElementById(sectionId);
+      const section = document.getElementById(sectionId).cloneNode(true);
       const style = document.querySelector('style').innerHTML;
+      
+      // 섹션 내 모든 입력 필드 값을 실제 텍스트로 변환
+      const inputs = section.querySelectorAll('input[type="text"]');
+      inputs.forEach(input => {
+        const div = document.createElement('div');
+        div.style.padding = '12px';
+        div.style.border = '1px solid #999';
+        div.style.borderRadius = '4px';
+        div.style.backgroundColor = '#fafafa';
+        div.style.fontSize = '14px';
+        div.style.marginBottom = '8px';
+        div.textContent = input.value || '(작성되지 않음)';
+        input.replaceWith(div);
+      });
+      
+      // 섹션 내 모든 textarea 값을 실제 텍스트로 변환
+      const textareas = section.querySelectorAll('textarea');
+      textareas.forEach(textarea => {
+        const div = document.createElement('div');
+        div.style.padding = '12px';
+        div.style.border = '1px solid #999';
+        div.style.borderRadius = '4px';
+        div.style.backgroundColor = '#fafafa';
+        div.style.fontSize = '14px';
+        div.style.minHeight = '100px';
+        div.style.whiteSpace = 'pre-wrap';
+        div.style.wordWrap = 'break-word';
+        div.style.marginBottom = '15px';
+        div.textContent = textarea.value || '(작성되지 않음)';
+        textarea.replaceWith(div);
+      });
+      
+      // 이미지 업로드 관련 요소 제거 (파일 입력, 업로드 라벨)
+      const fileInputs = section.querySelectorAll('input[type="file"]');
+      fileInputs.forEach(input => input.remove());
+      
+      const uploadLabels = section.querySelectorAll('.image-upload-label');
+      uploadLabels.forEach(label => label.remove());
       
       printWindow.document.write(`
         <!DOCTYPE html>
@@ -573,5 +579,5 @@
       }
     }
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9dd9034d55eeea2b',t:'MTc3MzcxOTIxMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9dd9e4bbc3255141',t:'MTc3MzcyODQ0NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
